@@ -7,3 +7,12 @@
     flex-direction: column;
 }
 
+
+body {
+    cursor: url('../images/mouse/ball_4_mouse.png'), auto;
+}
+nav, li, a {
+    cursor: url('../images/mouse/ball_4_mouse.png'), auto;
+}
+
+
