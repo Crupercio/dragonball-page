@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+
+
 .bg-orange {
     background-color: orange;
     display: flex;
@@ -8,6 +12,8 @@
 
 body {
     cursor: url('../images/mouse/ball_4_mouse.png'), auto;
+    font-family: 'Comic Neue', sans-serif;
+    font-size: large;
 }
 
 nav, li, a {
