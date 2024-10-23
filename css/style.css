@@ -1,0 +1,9 @@
+.bg-orange {
+    background-color: orange;
+    
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    flex-direction: column;
+}
+
