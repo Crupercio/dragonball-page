@@ -71,4 +71,38 @@ nav, li, a {
     height: auto;
 }
 
+table {
+    text-align: center; 
+    vertical-align: middle; 
+    width: 100%; 
+}
+
+table td, table th {
+    vertical-align: middle; 
+    text-align: center; 
+}
+.container {
+    margin-top: 20px;
+}
+.checkbox-group {
+    margin-bottom: 20px;
+}
+.message {
+    display: none;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: center;
+}
+.error {
+    display: none;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: center;
+}
 
