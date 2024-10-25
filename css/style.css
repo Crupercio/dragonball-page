@@ -117,5 +117,56 @@ table td, table th {
     max-width: 400px;
     margin: 20px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+}
+/* Carousel container styling */
+.carousel-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Centers image vertically and horizontally */
+}
+
+/* Image styling */
+.carousel-image {
+    width: 75%; /* 12 of 16 width */
+    height: auto; /* Maintains aspect ratio */
+    border: 5px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px orange;
+}
+
+/* Custom Carousel navigation buttons */
+.custom-carousel-control {
+    background-color: black;
+    color: orange;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hide the default icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    display: none;
+}
+
+/* Style the custom text inside the buttons */
+.custom-control-text {
+    color: orange;
+    font-weight: bold;
+}
+
+/* Position the buttons slightly outside of the carousel */
+.carousel-control-prev {
+    left: -60px;
+}
+
+.carousel-control-next {
+    right: -60px;
+}
+
 

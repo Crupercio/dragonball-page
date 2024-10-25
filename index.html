@@ -38,16 +38,51 @@
         </div>
     </nav>
     <!--Navvar -->
-    <Header>
-        <div class="bg-orange">
-            <div class="container text-center"><br><br>
-                <h1 class="text-center">Welcome to the Dragon Ball Universe</h1><br>
-                <img class="justify-content-center" src="./images/dragon_bg.png"/>
+    <header>
+        <div class="bg-orange py-5">
+            <div class="container text-center">
+                <h1 class="text-center mb-4">Welcome to the Dragon Ball Universe</h1>
+                <div id="dragonBallCarousel" class="carousel slide">
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-image-container">
+                                <img src="./images/dragon_bg1.png" class="carousel-image" alt="Dragon Ball Image 1">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-image-container">
+                                <img src="./images/dragon_bg2.png" class="carousel-image" alt="Dragon Ball Image 2">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-image-container">
+                                <img src="./images/dragon_bg3.png" class="carousel-image" alt="Dragon Ball Image 3">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-image-container">
+                                <img src="./images/dragon_bg4.png" class="carousel-image" alt="Dragon Ball Image 4">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-image-container">
+                                <img src="./images/dragon_bg5.png" class="carousel-image" alt="Dragon Ball Image 5">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Custom Carousel navigation buttons -->
+                    <button class="carousel-control-prev custom-carousel-control" type="button" data-bs-target="#dragonBallCarousel" data-bs-slide="prev">
+                        <span class="custom-control-text">Previous</span>
+                    </button>
+                    <button class="carousel-control-next custom-carousel-control" type="button" data-bs-target="#dragonBallCarousel" data-bs-slide="next">
+                        <span class="custom-control-text">Next</span>
+                    </button>
+                </div>
             </div>
-            
         </div>
-        
-    </Header>
+    </header>
     <div class="bg-orange">
         <div class="container">
             <div class="row align-items-center">
@@ -76,6 +111,31 @@
             </div>
         </div>
     </div>
+       <!-- Unordered List of Sagas -->
+       <div class="bg-orange text-black py-3">
+        <div class="container">
+            <hr class="bg-black" style="height: 2px; width: 80%; margin: 0 auto;">
+            <h3 class="text-center mb-3 mt-3">All Sagas</h3>
+            <hr class="bg-black" style="height: 2px; width: 80%; margin: 0 auto;">
+            <ul class="list-unstyled text-center">
+                <li>The Hunt for the Dragon Balls</li>
+                <li>Tournament and Red Ribbon Army</li>
+                <li>The Dark Tournament and Demon King Piccolo</li>
+                <li>Enter the Saiyans</li>
+                <li>The Battle on Namek</li>
+                <li>Androids and Cell</li>
+                <li>The Rise of Majin Buu</li>
+                <li>Gods of Destruction and Resurrection</li>
+                <li>Multiverse and Goku Black</li>
+                <li>Tournament of Power</li>
+                <li>Broly Returns</li>
+                <li>Dragon Ball Heroes Saga</li>
+                <li>Dragon Ball Daima</li>
+            </ul>
+            <p class="text-center mt-3">Visit the <a href="sagas.html" class="text-black text-decoration-underline">Sagas page</a> to read more about each saga and discover fun GIFs!</p>
+        </div>
+    </div>
+    
     
     
  
